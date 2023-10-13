@@ -1,0 +1,5 @@
+# Ignore virtualenvs
+venv/
+
+# Ignore Python bytecode files
+__pycache__/

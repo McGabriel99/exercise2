@@ -1,1 +1,2 @@
 api: uvicorn --port $PORT api:app --reload
+krakend: krakend run --config etc/krakend.json --port $PORT
